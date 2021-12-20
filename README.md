@@ -6,11 +6,11 @@
 npx create-react-app <project_name>
 ```
 ## Installing dependencies
-###Installing react icons.
+### Installing react icons.
 ```
 npm install react-icons --save
 ```
-###Installing tailwind css.
+### Installing tailwind css.
 ```
 npm install react-icons --save
 ```
