@@ -40,3 +40,17 @@ module.exports = {
 ```
 npm install @craco/craco --legacy-peer-deps (or ---force)
 ```
+
+#### pacakage.json
+In your package.json file replace react-scripts with craco
+```
+ "scripts": {
+        "start": <span style="background-color:white;">"react-scripts start"</span>,
+        "start": "craco start",
+        "build": "react-scripts build",
+        "build": "craco build",
+        "test": "react-scripts test",
+        "test": "craco test",
+        "eject": "react-scripts eject"
+    },
+```
