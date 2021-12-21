@@ -44,24 +44,18 @@ npm install @craco/craco --legacy-peer-deps (or ---force)
 #### pacakage.json
 In your package.json file replace react-scripts with craco
 ```
-```javascript ORIGINAL
+ORIGINAL
 "scripts": {
         "start": "react-scripts start",
-        "start": "craco start",
         "build": "react-scripts build",
-        "build": "craco build",
         "test": "react-scripts test",
-        "test": "craco test",
         "eject": "react-scripts eject"
     },
 ```
-```javascript WITH CRACO REPLACEMENT
+```WITH CRACO REPLACEMENT
 "scripts": {
-        "start": "react-scripts start",
         "start": "craco start",
-        "build": "react-scripts build",
         "build": "craco build",
-        "test": "react-scripts test",
         "test": "craco test",
         "eject": "react-scripts eject"
     },
