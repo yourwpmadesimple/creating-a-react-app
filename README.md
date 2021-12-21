@@ -10,7 +10,17 @@ npx create-react-app <project_name>
 ```
 npm install react-icons --save
 ```
+
 ### Installing tailwind css.
 ```
 npm install react-icons --save
+```
+
+### Creating tailwind config file
+```
+npx tailwindcss init
+```
+### Installing Craco
+```
+npm install @craco/craco --legacy-peer-deps (or ---force)
 ```
