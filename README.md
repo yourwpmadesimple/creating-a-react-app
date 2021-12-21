@@ -1,7 +1,7 @@
 # Getting Started with Create React App
 
 ## Create React APP
-###Create a react js project.
+### Create a react js project.
 ```
 npx create-react-app <project_name>
 ```
