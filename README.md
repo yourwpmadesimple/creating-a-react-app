@@ -13,7 +13,7 @@ npm install react-icons --save
 
 ### Installing tailwind css.
 ```
-npm install react-icons --save
+npm install -D tailwindcss@npm:@tailwindcss/postcss7-compat @tailwindcss/postcss7-compat postcss@^7 autoprefixer@^9 @tailwindcss/forms --force
 ```
 
 ### Creating tailwind config file
